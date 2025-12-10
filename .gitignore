@@ -1,0 +1,37 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet packages
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# ASP.NET Core
+appsettings.*.json
+*.db
+*.sqlite
+wwwroot/lib/
+node_modules/
+
+# Logs
+*.log
+TestResults/
+
+# Others
+*.swp
+*.DS_Store
+*.tmp
+*.bak
